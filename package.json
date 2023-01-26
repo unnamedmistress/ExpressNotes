@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/unnamedmistress/ExpressNotes/issues"
   },
-  "homepage": "https://github.com/unnamedmistress/ExpressNotes#readme"
+  "homepage": "https://github.com/unnamedmistress/ExpressNotes#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "validator": "^10.11.0"
+  }
 }

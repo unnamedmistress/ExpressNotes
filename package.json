@@ -1,25 +1,17 @@
 {
-  "name": "miniature-eureka",
+  "name": "note-taker",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unnamedmistress/ExpressNotes.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/unnamedmistress/ExpressNotes/issues"
-  },
-  "homepage": "https://github.com/unnamedmistress/ExpressNotes#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "validator": "^10.11.0"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "uuid": "^9.0.0"
   }
 }
